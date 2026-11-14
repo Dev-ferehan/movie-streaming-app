@@ -1,0 +1,23 @@
+.footer_container {
+  width: 100%;
+}
+.footer_container ul li {
+  list-style: none;
+  padding: 4px;
+}
+
+ul li a {
+  color: rgb(190, 187, 187);
+  text-decoration: none;
+  font-size: 15px;
+}
+ul li a:hover {
+  color: white;
+}
+.nav {
+  --bs-nav-link-padding-x: 0rem;
+  margin-left: 20px;
+}
+.nav .link {
+  padding: 5px;
+}

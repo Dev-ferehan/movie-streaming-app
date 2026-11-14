@@ -1,0 +1,90 @@
+.row_poster {
+  width: 100%;
+  object-fit: contain;
+  max-height: 120px;
+  transition: transform 450ms;
+  margin-right: 10px;
+}
+.poster_arrow {
+  display: flex;
+  align-items: center;
+}
+
+.row_posters {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 20px;
+  scroll-behavior: smooth;
+}
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+.row_poster:hover {
+  transform: scale(1.08);
+}
+.row_posterLarge {
+  max-height: 200px;
+}
+.row_posterLarge:hover {
+  transform: scale(1.09);
+}
+.row {
+  margin-left: 20px;
+  color: white;
+  display: flex;
+}
+.row h1 {
+  font-size: 22px;
+  font-weight: 500;
+}
+.left_arrow {
+  color: #adadad;
+}
+.arrow:hover {
+  /* font-size:100px;
+    background: scale(0.8);
+    color: white; */
+}
+
+.marquee-container {
+  overflow: hidden;
+  /* width: 100%; */
+}
+
+.marquee-track {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee-scroll 30s linear infinite;
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.row_poster {
+  flex-shrink: 0;
+  width: 150px;
+  margin-right: 10px;
+}
+.none {
+  display: none;
+}
+.display {
+  display: block;
+}
+.display:hover {
+  border: 6px solid gray;
+  background: scale(0.8);
+  color: white;
+  cursor: pointer;
+}
+.marquee-track-paused {
+  display: flex;
+  animation-play-state: paused;
+}
