@@ -1,5 +1,7 @@
 {
-  "homepage": "https://Dev-ferehan.github.io/NetFlix-React-App",
+  "homepage": "https://Dev-ferehan.github.io/movie-streaming-app",
+
+
   "name": "netflix",
   "private": true,
   "version": "0.0.0",
